@@ -112,7 +112,8 @@ p {
 h2 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Leckerli One', cursive;
+    /*font-family: 'Leckerli One', cursive;*/
+    font-family: 'Lobster', cursive;
     letter-spacing: 0;
     line-height: 55px;
     font-weight: 700;
