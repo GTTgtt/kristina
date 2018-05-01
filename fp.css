@@ -1,0 +1,129 @@
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100px;
+    line-height: 70px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+#calendar {
+    margin: 60px 5%;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+h6 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+td, th {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    font-weight: 700;
+}
+
+th {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.inset-border {
+    width: 95%;
+    height: 95%;
+    margin: calc(2.5% - 2.5px) auto;
+    border: 5px solid transparent;
+    border-radius: 0 35px 0 35px;
+}
+
+#date {
+    font-weight: 700;
+}
+
+#vert {
+    position: absolute;
+    top: 0;
+    left: 414.2px;
+    height: 100%;
+    width: 20px;
+    background-color: white;
+    opacity: 0.7;
+}
+#hori {
+    position: absolute;
+    top: 370.4px;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.note {
+    padding: 15px 0;
+    font-family: 'Over the Rainbow', cursive;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #333333;
+    color: white;
+    clip-path: polygon(10% 0, 15% 50%, 10% 100%, 90% 100%, 85% 50%, 90% 0);
+}
+
+.note-text {
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 0 20px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+#imena {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Leckerli One', cursive;
+    letter-spacing: 0;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+img {
+    width: 50px;
+}
+
+#srce {
+    position: absolute;
+    top: 360px;
+    left: 400px;
+}
